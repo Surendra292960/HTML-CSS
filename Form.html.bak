@@ -1,0 +1,55 @@
+<html>
+ <head>
+  <title>Document</title>
+ </head>
+ <body>
+  <table border=1 height =150% width=100%>
+  <tr>
+  <td colspan = 4 Background = "myimage.jpeg" height = 15%>
+  </td>
+  </tr>
+  <tr>
+  <td width = 15% height = 100% background = "images.jpg" valign = "top">
+  <font color = "white">
+  <h2>Color</h2>
+  1-<a href = "javaindex.html" target="frame2">JAVA</a><br>
+  2-<a href = "javaindex.html" target = "frame2">OOPS</a>
+  <h3>Login</h3>
+  <form>
+  Username<input type ="text" name = "user" ></br>
+  Password<input type ="password" name = "password"></br>
+  <input type = "submit" value = "signin">
+  <a href = "registration.html" target = "frame1">Sign Up</a>
+  </form>
+  </font>
+  </td>
+  <td width = 70%  valign=top>
+  <table height = 7% width = 100>
+  <tr>
+  <td>
+  <a
+  href = home "home.html">HOME</a></td>
+  <td><a
+  href = home "Service.html">Services</a></td>
+  <td><a
+  href = home "about.html">Aboutus</a></td>
+  <td><a
+  href = home "Contect.html">Contactus</a></td>
+  <td><a
+  href = home "blog.html">Blog</a></td>
+ </tr>
+ </table>
+  <iframe name = "frame1" height = 100% width = 100%></iframe>
+  </td>
+ 
+  <td>
+  <td width = 15% height = 100% background = "images.jpg" valign = "top">
+  <font color = "white">
+  <h2>Index<h2><br></br>
+  <iframe name="frame2" width = 100% height =100%></iframe>
+
+  </td>
+  </tr>
+  </table>
+  </body>
+  </html>
